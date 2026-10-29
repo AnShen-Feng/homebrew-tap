@@ -1,2 +1,7 @@
-# homebrew-tap
-AnShen 的 Homebrew 软件源 — brew install AnShen-Feng/tap/terrnal
+# AnShen Homebrew Tap
+
+```bash
+brew install AnShen-Feng/tap/terrnal
+```
+
+升级：`brew upgrade terrnal`
