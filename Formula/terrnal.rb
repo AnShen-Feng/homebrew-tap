@@ -5,13 +5,13 @@ class Terrnal < Formula
 
   if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://dl.anshen.online/terrnal-darwin-arm64.gz"
-    sha256 "AD9E43562783ED39PLACEHOLDER"
+    sha256 "7e5c792266aeb3da2f3263ecd868bea01a9bb996e216d03482c51000ce4a8415"
     def install
       bin.install "terrnal-darwin-arm64" => "terrnal"
     end
   else
     url "https://dl.anshen.online/terrnal-darwin-x64.gz"
-    sha256 "1C2167F428A83EAPLACEHOLDER"
+    sha256 "88181e94bf858d5b7d1f01ded009ad5216e1dc6a32b2c8a2c4dbeff6e085d07d"
     def install
       bin.install "terrnal-darwin-x64" => "terrnal"
     end
