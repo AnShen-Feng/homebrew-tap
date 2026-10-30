@@ -1,17 +1,17 @@
 class Terrnal < Formula
   desc "Terminal IM client for Terrnal"
   homepage "https://github.com/AnShen-Feng/Terrnal-Frontend"
-  version "0.2.1"
+  version "0.3.0"
 
   if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://dl.anshen.online/terrnal-darwin-arm64.gz"
-    sha256 "7e5c792266aeb3da2f3263ecd868bea01a9bb996e216d03482c51000ce4a8415"
+    sha256 "b591bbcb3e2aac4f1e86f350afbf2ae3532e0254cd365335d6c8673309fc892b"
     def install
       bin.install "terrnal-darwin-arm64" => "terrnal"
     end
   else
     url "https://dl.anshen.online/terrnal-darwin-x64.gz"
-    sha256 "88181e94bf858d5b7d1f01ded009ad5216e1dc6a32b2c8a2c4dbeff6e085d07d"
+    sha256 "af4dedbbf94eededcf26926e0baee3d28bc66aa90b2fe5afabb448295f212f62"
     def install
       bin.install "terrnal-darwin-x64" => "terrnal"
     end
